@@ -1,0 +1,18 @@
+<resources>
+	<string name="app_name">台北市垃圾車</string>
+
+	<string name="menu_fb">說明</string>
+	<string name="menu_use">如何使用</string>
+	<string name="menu_info">關於台北市垃圾車</string>
+
+	<string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+	<string name="start_level">Level 1</string>
+	<string name="next_level">Next Level</string>
+	<!-- -
+        This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+	<string name="name_des">台北市垃圾車是因為搬家要找垃圾車做的，好像也不需要什麼功能，搬家時可以找到附近垃圾車就好...\n\n不過既然都整理了，開放給大家一起使用吧，\n如果喜歡，或是想要功能就到APP上留言或留下星星！\n有人需要的話會抽出時間完善功能的。\n\n\nBy LiLi and Lova Team\n
+	</string>
+	<string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+</resources>

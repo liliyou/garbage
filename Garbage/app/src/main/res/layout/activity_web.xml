@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@android:color/holo_red_dark">
+
+	<WebView
+		android:id="@+id/webview"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_alignParentTop="true" />
+
+	<!--<android.support.design.widget.FloatingActionButton-->
+		<!--android:id="@+id/btnSave"-->
+		<!--android:layout_width="wrap_content"-->
+		<!--android:layout_height="wrap_content"-->
+		<!--android:layout_alignParentBottom="true"-->
+		<!--android:layout_margin="10dp"-->
+		<!--android:src="@mipmap/pin_filled" />-->
+
+	<!--<android.support.design.widget.FloatingActionButton-->
+		<!--android:id="@+id/btnGPS"-->
+		<!--android:layout_width="wrap_content"-->
+		<!--android:layout_height="wrap_content"-->
+		<!--android:layout_alignParentBottom="true"-->
+		<!--android:layout_alignParentRight="true"-->
+		<!--android:layout_margin="10dp"-->
+		<!--android:src="@mipmap/center_direction" />-->
+
+	<ProgressBar
+		android:id="@+id/progressBar"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true" />
+</RelativeLayout>

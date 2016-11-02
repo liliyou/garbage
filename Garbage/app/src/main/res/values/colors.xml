@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="colorPrimary">#1E8895</color>
+	<color name="colorPrimaryDark">#71C7C6</color>
+	<color name="colorAccent">#4DA2A1</color>
+
+	<color name="map_switch">#F5F5F5</color>
+
+	<color name="searchLineGray">#EEEEEE</color>
+</resources>

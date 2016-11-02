@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<style>
+html,
+body,
+#map_canvas {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#map_canvas {
+    position: relative;
+}
+.nd2-card {
+    display: block;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.16), 1px 2px 10px 1px rgba(0, 0, 0, 0.12);
+    margin: 3px auto;
+    padding:10px;
+    max-width: 98%;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+</style>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" http-equiv="Content-Type" charset="UTF-8" />
+    <title>GarbageMap</title>
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="generalPoint.js"></script>
+    <script src="markerclusterer.js"></script>
+    <script>
+    function initialize() {
+        var uluru = {
+            lat: 25.058118,
+            lng: 121.535927
+        };
+        var mapProp = {
+            center: uluru,
+            zoom: 20,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        map = new google.maps.Map(document.getElementById("map_canvas"), mapProp);
+        generalPoint();
+
+    }
+    </script>
+    <script>
+    var map;
+    // var pointArray;
+    var markerArray = [];
+    var detailView = document.createElement('div');
+    jQuery(detailView).load("info.html");
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+</head>
+
+<body>
+    <div id="map_canvas"></div>
+
+</body>
+
+</html>
